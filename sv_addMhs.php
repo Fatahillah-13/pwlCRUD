@@ -22,7 +22,7 @@ if (file_exists($fileupload)) {
 }
 
 // Check ukuran file
-if ($_FILES["foto"]["size"] > 1000000) {
+if ($_FILES["foto"]["size"] > 2000000) {
     echo "Maaf, ukuran file foto harus kurang dari 1 MB<br>";
     $uploadOk = 0;
 }
